@@ -344,6 +344,42 @@ ul{
     justify-content: space-between;
 }
 
+.linha2 select{
+    padding: 5px;
+    border: 1px solid var(--cor-padrao);
+}
+
+.linha2 select:focus{
+    outline: none;
+}
+
+.paginacao{
+    margin: 0 auto 80px;
+}
+
+.paginacao span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid var(--cor-padrao);
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.paginacao span:hover{
+    background-color: var(--cor-padrao);
+    color: var(--cor-fonte);
+}
+
+
+/*-----------------DETALHES DO PRODUTO-----------*/
+.ver-produtos{
+    margin-top: 40px;
+}
+
+
 /*-----------------MENU CELULAR-----------*/
 .menu-celular{
     width: 28px;
